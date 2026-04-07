@@ -1,0 +1,6 @@
+apiVersion: v2
+name: example-helm-01
+description: A simple Hello World app with FastAPI backend and Next.js frontend
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
