@@ -3,7 +3,17 @@ entries:
   example-helm-01:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-07T20:43:21.992998986Z"
+    created: "2026-04-07T22:36:38.993527133Z"
+    description: A simple Hello World app with FastAPI backend and Next.js frontend
+    digest: 360de9bbe2e7985dc28efecb6f575edecacbea7fd5de0cf0c39b95792e212be3
+    name: example-helm-01
+    type: application
+    urls:
+    - https://GKestenberg.github.io/helm-2-deploy/example-helm-01-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-04-07T22:36:38.993300149Z"
     description: A simple Hello World app with FastAPI backend and Next.js frontend
     digest: e166191f9b80124a9236678ea48c7a366bd5e0f8e1858941b4e7b70375efe68b
     name: example-helm-01
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://GKestenberg.github.io/helm-2-deploy/example-helm-01-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-07T20:43:21.992543739Z"
+generated: "2026-04-07T22:36:38.992918558Z"
