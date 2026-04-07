@@ -1,7 +1,7 @@
 backend:
   replicaCount: 1
   image:
-    repository: backend
+    repository: ghcr.io/gkestenberg/helm-2-deploy-backend
     tag: latest
     pullPolicy: IfNotPresent
   service:
@@ -12,7 +12,7 @@ backend:
 frontend:
   replicaCount: 1
   image:
-    repository: frontend
+    repository: ghcr.io/gkestenberg/helm-2-deploy-frontend
     tag: latest
     pullPolicy: IfNotPresent
   service:
